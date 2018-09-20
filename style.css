@@ -1,0 +1,13 @@
+.col-md-9.content>p:first-child,
+.col-md-9.content>ul:first-child
+{
+	margin-top: 20px;
+}
+
+.resume .row {
+	    display:flex;
+}
+
+.resume .row .col-md-3 {
+	background: cadetblue;
+}
