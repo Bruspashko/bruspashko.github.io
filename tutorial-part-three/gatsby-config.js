@@ -29,4 +29,5 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet'
   ],
+  pathPrefix: "/tutorial-part-three-public",
 }

@@ -5,5 +5,5 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  pathPrefix: "/tutorial-part-two-public",
 }
