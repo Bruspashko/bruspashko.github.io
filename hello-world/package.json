@@ -10,7 +10,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy:github": "gatsby build --prefix-paths && node ./scripts/deploy-github"
   },
   "dependencies": {
     "gatsby": "^2.5.5",
